@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exercício Layout Lista 03</title>
+</head>
+<body>
+   <header>
+        
+            <table>
+                <tr>
+                    <td><img src="imagens/logoIFTM.jpg" alt="" width="250"></th>
+                    <td><h1>Sistemas para Internet</h1><p>Ensino gratuito e de qualidade</p></th>
+                    <td><img src="imagens/bandeiraUberlandia.png" alt="" width="120"><h3></h3></th>
+                </tr> 
+            </table>     
+        
+
+        <section>
+            <nav>
+                <ul> <!-- Lista não ordenada-->
+                    <li><a href="#"> Início</a></li>
+                    <li><a href="#"> Programação</a></li>
+                    <li><a href="#"> Inscreva-se</a></li>
+                    <li><a href="#"> Localização</a></li>
+                    <li><a href="#"> Certificados</a></li>
+                    <li><a href="#"> Fotos</a></li>
+                    <li><a href="#"> Sarau</a></li>
+                    <li><a href="#"> Feira</a></li>
+                    <li><a href="#"> Organização</a></li>
+                </ul>
+            </nav>
+        </section>
+
+
+   </header>
+
+   <main>
+    <section>
+        <table>
+            <tr>
+                <td><img src="imagens/fotoIFTM.jpg" alt="" width="460"></td>
+                <td><h2>Sobre o curso de Sistemas para Internet</h2>
+                    <p>O curso de <stronG>Tecnologia em Sistemas para Internet</stronG> possui como objetivo geral formar tecnólogos em <a href="https://iftm.edu.br/uberlandiacentro/cursos/graduacao-presencial/tecnologia-em-sistemas-para-internet/">Sistemas para Internet</a> propiciando <u>conhecimentos teóricos e práticos</u> com vistas à formação integral, por meio do estudo técnico-científico e da reflexão crítica acerca dos aspectos <span style="color:red">humanos</span>, <span style="color:red">éticos</span> e <span style="color:red">cidadãos</span>, de modo a atender com excelência às demandas do arranjo produtivo da região.</p>
+                    
+                   <b>Outros cursos oferecidos pelos IFTM:</b>
+                    
+                    <li>Tecnologia em Marketing (duração: 2,5 anos)</li>
+                    <li>Licenciatura em Computação (duração: 4 anos)</li>
+                   <li>Logística (duração: 2,5 anos)</li> </td>
+                
+                        
+                
+            </tr>
+        </table>
+            
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <th>Corpo Docente</th>
+                <th>Disciplinas</th>
+                <th>Projetos</th>
+                <th>Perfil do Egresso</th>
+            </tr>
+
+            <tr>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi. Consequuntur ipsam tenetur possimus, a nisi rem totam exercitationem fuga libero. Aliquam similique saepe, fugit tempora repellendus numquam illum expedita.</p><a style="color:blue" href="#">&#9654 Continue Lendo</p></td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi. Consequuntur ipsam tenetur possimus, a nisi rem totam exercitationem fuga libero. Aliquam similique saepe, fugit tempora repellendus numquam illum expedita.</p><a style="color:blue" href="#">&#9654 Continue Lendo</a></p></td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi. Consequuntur ipsam tenetur possimus, a nisi rem totam exercitationem fuga libero. Aliquam similique saepe, fugit tempora repellendus numquam illum expedita.</p><a style="color:blue" href="#">&#9654 Continue Lendo</a></p></td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi. Consequuntur ipsam tenetur possimus, a nisi rem totam exercitationem fuga libero. Aliquam similique saepe, fugit tempora repellendus numquam illum expedita.</p><a style="color:blue" href="#">&#9654 Continue Lendo</a></p></td>
+            </tr>
+
+            <tr>
+                <td style="color:white"><h4>Conheça os Professores [+]</h4></td>
+                <td style="color:white"><h4>Conheça a Estrutura [+]</h4></td>
+                <td style="color:white"><h4>Conheça o Projeto [+]</h4></td>
+                <td style="color:white"><h4>Conheça a Instituição [+]</h4></td>
+            </tr>
+      </table>
+    </section>
+
+   </main>
+
+   <footer>
+    <section>
+        <table>
+            <tr>
+                <td><p>Mapa do Site: </p>
+                    <p>Opção 1
+                    <br>Opção 2
+                    <br>Opção 3
+                    <br>Opção 4
+                    <br>Opção 5
+                    <br>Opção 6
+                    <br>Opção 7
+                    <br>Opção 8
+                    <br>Opção 9</p>
+
+                </td>
+                <td><p><img src="imagens/parceiros.jpg" alt="" width="670"></p>
+                <p><fieldset><legend>Assine nossa Newsletter</legend></p>
+                        <label for="email">Email:</label> <input type="email" id="email">
+                        <label for="cel">Telefone Celular:</label><input type="tel" id="cel">
+                        <button type="button">Assinar</button>
+                </td>
+
+                    </fieldset>
+                
+                        
+                
+            </tr>
+        </table>
+
+    </section>
+
+
+   </footer>
+    
+
+
+
+</body>
+</html>
